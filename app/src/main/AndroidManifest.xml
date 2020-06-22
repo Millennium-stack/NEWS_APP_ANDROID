@@ -8,25 +8,125 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/applogo"
+        android:configChanges="orientation|screenSize"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/app_logo"
         android:label="DG NEWS"
-        android:roundIcon="@drawable/applogo"
+        android:launchMode="singleTop"
+        android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4342496723680906~7866692906"/>
+            android:value="ca-app-pub-3707598583515158~6759262812"/>
 
-        <activity android:name="com.newsglobal.android.newsapp.detailed"></activity>
-        <activity android:name="com.newsglobal.android.newsapp.splashscreen">
+        <activity android:name=".SplashScreen">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name="com.newsglobal.android.newsapp.MainActivity"></activity>
+        <activity android:name=".Detailed" />
+        <activity android:name=".IndianNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice"/>
+        </activity>
+        <activity
+            android:name=".SportsNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice" />
+        </activity>
+        <activity
+            android:name=".EntertainmentNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice" />
+        </activity>
+        <activity
+            android:name=".TechnologyNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice" />
+        </activity>
+        <activity
+            android:name=".ScienceNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice" />
+        </activity>
+        <activity
+            android:name=".HealthNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice" />
+        </activity>
+        <activity
+            android:name=".BusinessNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice" />
+        </activity>
+        <activity
+            android:name=".GlobalNews"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/search_voice" />
+        </activity>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
