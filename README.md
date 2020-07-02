@@ -4,6 +4,8 @@ A simple android application for browsing news articles.
 You can download the app from the Google Play Store.
 https://play.google.com/store/apps/details?id=com.newsglobal.android.newsapp
 
+App Promo: https://www.youtube.com/watch?v=jCK9OZXPzmI
+
 The technology used:- Android Studio:- 3.6.3
 
 Programming Language:-Java
