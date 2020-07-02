@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AppNews</string>
+
+    <string name="search">Search</string>
+    <string name="hello_millennium">Hello Millennium</string>
+    <string name="where_are_we">Welcome to DG News</string>
+    <string name="going_today">Your daily news feed !</string>
+    <string name="daily_global">DAILY GLOBAL</string>
+    <string name="home">Home</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="global_news">GLOBAL NEWS</string>
+    <string name="business_news">BUSINESS NEWS</string>
+    <string name="health_news">HEALTH NEWS</string>
+    <string name="technology_news">TECHNOLOGY NEWS</string>
+    <string name="entertainment_news">ENTERTAINMENT NEWS</string>
+    <string name="sports_news">SPORTS NEWS</string>
+    <string name="science_news">SCIENCE NEWS</string>
+    <string name="bookmark_section">Bookmark Section</string>
+    <string name="dg">DG</string>
+    <string name="title">TITLE</string>
+    <string name="source">Source</string>
+    <string name="date">Date</string>
+    <string name="read_more">Read More</string>
+    <string name="top_headlines">Top Headlines</string>
+    <string name="of_the">Of The</string>
+    <string name="day">Day!</string>
+    <string name="indian_news">INDIAN NEWS</string>
+    <string name="description">Description</string>
+    <string name="news">NEWS</string>
+</resources>
